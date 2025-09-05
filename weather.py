@@ -35,7 +35,7 @@ root.configure(bg="white")
 def getWeather():
     city = textfield.get().strip()  # Get city from input
 
-    api_key = "d669a7a9aebf192cebc3a8efdd70385a"  # Replace with your API key
+    api_key = "d669a7a9aebf192cebc3a8efdd70385a"  # API key
     base_url = "https://api.openweathermap.org/data/2.5/weather"
 
     params = {
@@ -146,7 +146,7 @@ myimage_icon.place(x=275, y=32)
 img_weather = Image.open("weatherImage.jpg")
 
 # Resize the weather image (adjust width=150, height=150 as you like)
-img_weather = img_weather.resize((150, 150))
+img_weather = img_weather.resize((700, 600))
 
 # Convert to Tkinter-compatible image
 Weather_image = ImageTk.PhotoImage(img_weather)
@@ -154,7 +154,7 @@ Weather_image = ImageTk.PhotoImage(img_weather)
 # Display the image in a label
 # you can set bg to match window
 weather_label = Label(root, image=Weather_image, bg="white", border=0)
-weather_label.place(x=680, y=20)
+weather_label.place(x=400, y=-200)
 
 
 # -------------------- Bottom box for displaying weather info -------------------- #
@@ -199,10 +199,10 @@ Label1 = Label(root, text="PRESSURE", font=(
 Label1.place(x=650, y=300)
 
 
-t = Label(font=("arial", 70, "bold"), fg="#ee666d")
-t.place(x=400, y=150)
-c = Label(font=("arial", 15, "bold"))
-c.place(x=400, y=250)
+t = Label(font=("arial", 70, "bold"), fg="#ee666d", bg="white")
+t.place(x=400, y=100)
+c = Label(font=("arial", 15, "bold"), bg="white")
+c.place(x=400, y=200)
 
 
 w = Label(text="...", font=("arial", 20, "bold"), bg="#1ab5ef")
