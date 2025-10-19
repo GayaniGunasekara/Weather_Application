@@ -13,7 +13,6 @@ A **feature-rich Weather Application** built using **Python** and **Tkinter**, a
 Watch the live demo on LinkedIn: [Weather App Demo](https://www.linkedin.com/posts/gayanigunasekara_python-tkinter-weatherapp-activity-7373390923268845568-42nx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEL6RiABQSW_ItwUdJrRczRXpnO7Cj36BKo)
 
 ![Weather App GIF](demo.gif)  
-*.*
 
 ---
 
