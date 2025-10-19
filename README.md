@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
 [![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange)](https://docs.python.org/3/library/tkinter.html) 
 [![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-blueviolet)](https://openweathermap.org/api)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 A **feature-rich Weather Application** built using **Python** and **Tkinter**, allowing users to search for a city and get **real-time weather updates**, including temperature, humidity, wind speed, pressure, weather description, and **local time**. The app features a **modern and interactive GUI** with custom images.
 
