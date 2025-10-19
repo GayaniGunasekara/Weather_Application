@@ -41,6 +41,23 @@ Watch the live demo on LinkedIn: [Weather App Demo](https://www.linkedin.com/pos
 
 ---
 
+## 🔹 Usage
+
+1. Enter the city name in the search bar.
+
+2. Click the search button (magnifying glass).
+
+3. View the results:
+
+      Temperature
+
+      Weather condition & description
+
+      Humidity, wind speed, and pressure
+
+      Local time of the city
+
+---
 ## 🔹 Installation
 
 1. **Clone the repository**
@@ -59,34 +76,3 @@ pip install requests geopy timezonefinder pytz pillow
 python weather_app.py
 
 
----
-
-## 🔹 Technologies & Libraries
-
-| Technology | Purpose |
-|------------|---------|
-| Python     | Programming language |
-| Tkinter    | GUI development |
-| Pillow (PIL) | Image handling & resizing |
-| Requests   | API requests |
-| Geopy      | Convert city name → coordinates |
-| TimezoneFinder & pytz | Local time calculation |
-| OpenWeatherMap API | Live weather data |
-
-------
-
-## 🔹 Usage
-
-1. Enter the city name in the search bar.
-
-2. Click the search button (magnifying glass).
-
-3. View the results:
-
-      Temperature
-
-      Weather condition & description
-
-      Humidity, wind speed, and pressure
-
-      Local time of the city
