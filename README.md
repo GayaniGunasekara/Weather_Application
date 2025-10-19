@@ -1,81 +1,50 @@
-🌦 Weather Application (Python & Tkinter)
+# 🌦 Weather Application (Python & Tkinter)
 
-A feature-rich, interactive Weather Application built using Python and Tkinter. This app allows users to search for a city and get real-time weather updates, including temperature, humidity, wind speed, pressure, and weather description, along with the local time of the searched city. The app features a user-friendly GUI with a clean, modern design.
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange)](https://docs.python.org/3/library/tkinter.html) 
+[![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-blueviolet)](https://openweathermap.org/api)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-🔹 Demo
+A **feature-rich Weather Application** built using **Python** and **Tkinter**, allowing users to search for a city and get **real-time weather updates**, including temperature, humidity, wind speed, pressure, weather description, and **local time**. The app features a **modern and interactive GUI** with custom images.
 
-Watch the live demo on LinkedIn: Weather App Demo
+---
 
-🔹 Features
+## 🔹 Demo
 
-✅ Search weather by city name 🌍
+Watch the live demo on LinkedIn: [Weather App Demo](https://www.linkedin.com/posts/gayanigunasekara_python-tkinter-weatherapp-activity-7373390923268845568-42nx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEL6RiABQSW_ItwUdJrRczRXpnO7Cj36BKo)
 
-✅ Displays real-time temperature, humidity, wind speed, pressure, and description 📊
+![Weather App GIF](demo.gif)  
+*Replace `demo.gif` with a GIF of your app in action for better presentation.*
 
-✅ Shows local time of the city ⏰
+---
 
-✅ User-friendly Tkinter GUI with custom images and design 🎨
+## 🔹 Features
 
-🔹 Technologies & Libraries Used
+- ✅ Search weather by **city name** 🌍  
+- ✅ Displays **real-time temperature**, humidity, wind speed, pressure, and description 📊  
+- ✅ Shows **local time** of the city ⏰  
+- ✅ **User-friendly Tkinter GUI** with custom images and modern design 🎨  
+- ✅ Handles errors gracefully (invalid city input)
 
-Python → Programming language
+---
 
-Tkinter → GUI development
+## 🔹 Technologies & Libraries
 
-Pillow (PIL) → Image handling and resizing
+| Technology | Purpose |
+|------------|---------|
+| Python     | Programming language |
+| Tkinter    | GUI development |
+| Pillow (PIL) | Image handling & resizing |
+| Requests   | API requests |
+| Geopy      | Convert city name → coordinates |
+| TimezoneFinder & pytz | Local time calculation |
+| OpenWeatherMap API | Live weather data |
 
-Requests → API requests to OpenWeatherMap
+---
 
-Geopy → Convert city names to latitude/longitude
+## 🔹 Installation
 
-TimezoneFinder & pytz → Timezone and local time calculations
-
-OpenWeatherMap API → Fetch live weather data 🌐
-
-
-
-🔹 Installation
-
-Clone the repository
-
+1. **Clone the repository**
+```bash
 git clone <repository-url>
 cd <repository-folder>
-
-
-Install required packages
-
-pip install requests geopy timezonefinder pytz pillow
-
-
-Run the application
-
-python weather_app.py
-
-
-Make sure you have your OpenWeatherMap API key and images (search.png, search_icon.png, weatherImage.jpg, box.png) in the project folder.
-
-🔹 Usage
-
-Enter the city name in the search bar.
-
-Click the search button (magnifying glass).
-
-The app will display:
-
-Current temperature
-
-Weather condition & description
-
-Humidity, wind speed, and pressure
-
-Local time of the city
-
-🔹 API
-
-Weather data is fetched from OpenWeatherMap API
-
-Make sure to generate your API key at OpenWeatherMap
- and replace it in the code:
-
-api_key = "YOUR_API_KEY_HERE"
-
