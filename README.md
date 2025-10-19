@@ -61,6 +61,20 @@ python weather_app.py
 
 ---
 
+## 🔹 Technologies & Libraries
+
+| Technology | Purpose |
+|------------|---------|
+| Python     | Programming language |
+| Tkinter    | GUI development |
+| Pillow (PIL) | Image handling & resizing |
+| Requests   | API requests |
+| Geopy      | Convert city name → coordinates |
+| TimezoneFinder & pytz | Local time calculation |
+| OpenWeatherMap API | Live weather data |
+
+------
+
 ## 🔹 Usage
 
 1. Enter the city name in the search bar.
