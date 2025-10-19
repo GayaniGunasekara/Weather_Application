@@ -59,8 +59,9 @@ pip install requests geopy timezonefinder pytz pillow
 python weather_app.py
 
 
+---
 
-🔹 Usage
+## 🔹 Usage
 
 1. Enter the city name in the search bar.
 
