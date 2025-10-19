@@ -48,3 +48,31 @@ Watch the live demo on LinkedIn: [Weather App Demo](https://www.linkedin.com/pos
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+
+
+2. **Install required packages**
+```bash
+pip install requests geopy timezonefinder pytz pillow
+
+
+3. **Run the application**
+```bash
+python weather_app.py
+
+
+
+🔹 Usage
+
+1. Enter the city name in the search bar.
+
+2. Click the search button (magnifying glass).
+
+3. View the results:
+
+      Temperature
+
+      Weather condition & description
+
+      Humidity, wind speed, and pressure
+
+      Local time of the city
